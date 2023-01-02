@@ -1,6 +1,6 @@
 # crear projecto django
 
-"""
+```sh
 # Crear el proyecto con nombre app
 django-admin startproject app
 cd app/
@@ -8,12 +8,11 @@ cd app/
 python3 manage.py migrate
 # Ejecutar el proyecto
 python3 manage.py runserver
-
-"""
+```
 
 # Crear una aplicación dentro del proyecto
-"""
+```sh
 cd app/
 # crear aplicación polls
 python3 manage.py startapp polls
-"""
+```
