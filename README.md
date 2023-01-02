@@ -16,3 +16,10 @@ cd app/
 # crear aplicación polls
 python3 manage.py startapp polls
 ```
+
+# Hacer las migraciones de los modelos
+```sh
+cd app/
+python3 manage.py makemigrations polls
+python3 manage.py migrate
+```
