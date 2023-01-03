@@ -23,3 +23,9 @@ cd app/
 python3 manage.py makemigrations polls
 python3 manage.py migrate
 ```
+
+# Crear un súper usuario
+```sh
+python3 manage.py createsuperuser
+
+```
